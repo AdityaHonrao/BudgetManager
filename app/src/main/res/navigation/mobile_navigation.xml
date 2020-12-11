@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_ledger">
+
+    <fragment
+        android:id="@+id/navigation_ledger"
+        android:name="com.sovereign.budgetmanager.ui.LedgerFragment"
+        android:label="Ledger"
+        tools:layout="@layout/fragment_ledger" />
+
+    <fragment
+        android:id="@+id/navigation_stats"
+        android:name="com.sovereign.budgetmanager.ui.StatsFragment"
+        android:label="Stats"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/navigation_goals"
+        android:name="com.sovereign.budgetmanager.ui.GoalsFragment"
+        android:label="Goals"
+        tools:layout="@layout/fragment_goals" />
+
+</navigation>

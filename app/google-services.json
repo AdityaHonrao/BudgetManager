@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "773463808491",
+    "firebase_url": "https://budget-manager-7657c.firebaseio.com",
+    "project_id": "budget-manager-7657c",
+    "storage_bucket": "budget-manager-7657c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773463808491:android:1d120badf6eddf35f561ae",
+        "android_client_info": {
+          "package_name": "com.sovereign.budgetmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773463808491-qqig2mfobp6cs0v6eqf9ccu1f7iqe9g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSPnnQG-Z-zr60rUCgqZVHUtTozPiJu98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773463808491-qqig2mfobp6cs0v6eqf9ccu1f7iqe9g1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773463808491:android:0c724ddf162bf8abf561ae",
+        "android_client_info": {
+          "package_name": "com.sovereign.budgetmanager.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773463808491-qqig2mfobp6cs0v6eqf9ccu1f7iqe9g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSPnnQG-Z-zr60rUCgqZVHUtTozPiJu98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773463808491-qqig2mfobp6cs0v6eqf9ccu1f7iqe9g1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773463808491:android:3bf3726045bdfbcbf561ae",
+        "android_client_info": {
+          "package_name": "com.sovereign.budgetmanagetbotnav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773463808491-qqig2mfobp6cs0v6eqf9ccu1f7iqe9g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSPnnQG-Z-zr60rUCgqZVHUtTozPiJu98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773463808491-qqig2mfobp6cs0v6eqf9ccu1f7iqe9g1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

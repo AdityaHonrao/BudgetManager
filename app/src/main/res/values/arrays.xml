@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ExpenseCats">
+        <item>Grocery</item>
+        <item>Travel</item>
+        <item>Health Care</item>
+        <item>Utilities</item>
+        <item>Food</item>
+        <item>Entertainment</item>
+        <item>Apparel</item>
+        <item>Education</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <string-array name="IncomeType">
+        <item>Cash</item>
+        <item>Accounts</item>
+    </string-array>
+</resources>

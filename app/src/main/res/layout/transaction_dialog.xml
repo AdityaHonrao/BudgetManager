@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dialogBg"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="New Transaction"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="Date"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/transactionDate"
+        app:layout_constraintEnd_toStartOf="@id/transactionDate"
+        app:layout_constraintTop_toTopOf="@id/transactionDate" />
+
+    <EditText
+        android:id="@+id/transactionDate"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="DD/MM/YYYY"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/transactionTitle"
+        app:layout_constraintTop_toBottomOf="@id/textView7" />
+
+    <EditText
+        android:id="@+id/transactionTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="MM:HH"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/transactionDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/transactionDate"
+        app:layout_constraintTop_toTopOf="@+id/transactionDate" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="Title"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/transactionTitle"
+        app:layout_constraintEnd_toStartOf="@+id/transactionTitle"
+        app:layout_constraintTop_toTopOf="@+id/transactionTitle" />
+
+    <EditText
+        android:id="@+id/transactionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/transactionDate" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="Amount"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/transactionAmount"
+        app:layout_constraintEnd_toStartOf="@+id/transactionAmount"
+        app:layout_constraintTop_toTopOf="@+id/transactionAmount" />
+
+    <EditText
+        android:id="@+id/transactionAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/transactionTitle"
+        app:layout_constraintStart_toStartOf="@+id/transactionTitle"
+        app:layout_constraintTop_toBottomOf="@+id/transactionTitle" />
+
+    <CheckBox
+        android:id="@+id/transactionType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Credit"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/transactionAmount"
+        app:layout_constraintTop_toBottomOf="@+id/transactionAmount" />
+
+    <Spinner
+        android:id="@+id/catSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/transactionType"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/transactionType" />
+
+    <Spinner
+        android:id="@+id/transactionMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catSpinner" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
